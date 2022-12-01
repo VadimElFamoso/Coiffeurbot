@@ -12,7 +12,8 @@ client.on('ready', () => {
     console.log('Coiffeurbot - [ON]');
 });
 
-client.login('MTA0Nzk1NjM1NjU5MTc4ODExMg.Gk1HSM.IE7iKIAbvIEBbqb-rm--L0aOJ9McMh3rU-VOGI');
+//Token à configurer :
+client.login(token);
 
 client.on('messageCreate', message =>{
    
@@ -61,7 +62,5 @@ client.on('messageCreate', message =>{
             message.react('🇺')
             message.react('🇷') 
         }
-    }
-    
-      
+    }   
 });
